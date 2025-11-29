@@ -32,6 +32,6 @@ vector_store = Chroma(
     persist_directory="./data/chroma_db"
 )
 
-# Adicione splits no vectorStore
+# Adicionando splits no vectorStore
 vector_store.add_documents(all_splits)
 
